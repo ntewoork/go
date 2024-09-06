@@ -1,0 +1,9 @@
+
+<form  method="post">
+    {% csrf_token %}
+        <label for="">Loginizi Kiriting </label>
+        {{form.username}}
+        <label for="">Parolizi Kiriting: </label>
+        {{form.password}}
+        <input type="submit" value="Saqlash">
+</form>

@@ -1,0 +1,12 @@
+
+
+<form action="" method="post">
+    {% csrf_token%}
+    <label for="">Login kiriting : </label>
+    {{form.username}}
+    <label for="">Parol Yarating: </label>
+    {{form.password1}}
+    <label for="">Parolni qaytaring: </label>
+    {{form.password2}}
+    <input type="submit" value="Jonatish">
+</form>
